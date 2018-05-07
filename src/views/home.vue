@@ -18,7 +18,8 @@ export default{
     }
 }
 </script>
-<style lang="less">
+<style>
+@rem: 37.5rem;
 .home{
     width: 100%;
     height: 100%;

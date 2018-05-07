@@ -16,36 +16,38 @@ export default{
 }
 </script>
 <style lang="less">
+@rem: 37.5rem;
 .avatar{
-    padding: 140px 100px 120px;
+    padding: 60/@rem 50/@rem 40/@rem;
     .img-wrap{
-        width: 400px;
-        height: 400px;
-        border: 16px solid #d0f4dd;
+        width: 150/@rem;
+        height: 150/@rem;
+        border: 6/@rem solid #d0f4dd;
         border-radius: 50%;
         overflow: hidden;
         margin: 0 auto;
+        position: relative;
         img{
             width: 100%;
             height: 100%;
         }
     }
     h3{
-        letter-spacing: 6px;
+        letter-spacing: 6/@rem;
         text-align: center;
-        font-size: 72px;
-        text-shadow: 4px 4px 0px  #b0e4cd;
+        font-size: 36/@rem;
+        text-shadow: 1/@rem 2/@rem 0/@rem  #b0e4cd;
         color: white;
-        padding: 60px 0 0;
+        padding: 30/@rem 0 0;
     }
     p{
-        width: 440px;
-        font-size: 36px;
+        width: 100%;
+        font-size: 20/@rem;
         color: #30948d;
         text-align: center;
         margin: 0 auto;
-        padding: 40px 0 60px;
-        border-bottom: 4px solid white;
+        padding: 10/@rem 0 20/@rem;
+        border-bottom: 2/@rem solid white;
     }
 }
 </style>

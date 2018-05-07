@@ -21,3 +21,26 @@ export default{
     }
 }
 </script>
+<style lang="less">
+@rem: 37.5rem;
+.experience{
+    width: 100vw;
+    height: 100vw;
+    color: white;
+    background-color: #8dddbd;
+    >h3{
+        width: 100%;
+        font-size: 48/@rem;
+
+    }
+    .exp-cont{
+        p{
+            font-size: 28/@rem;
+        }
+        h3{
+            font-size: 32/@rem;
+            font-weight: normal;
+        }
+    }
+}
+</style>

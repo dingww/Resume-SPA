@@ -20,12 +20,12 @@ export default{
     padding-top: 40px;
     
     a{
-        width: 220px;
-        height: 80px;
+        width: 200px;
+        height: 200px;
         font-size: 36px;
         text-align: center;
-        line-height: 80px;
-        border-radius: 8px;
+        line-height: 200px;
+        border-radius: 100%;
         background-color: #40a496;
         display: block;
         color: white;
