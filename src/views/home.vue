@@ -1,3 +1,11 @@
+<style lang='less'>
+@rem: 37.5rem;
+.home{
+    width: 100%;
+    height: 100%;
+    background-color: #8dddbd;
+}
+</style>
 <template>
     <div class="home">
         <Avatar></Avatar>
@@ -18,11 +26,3 @@ export default{
     }
 }
 </script>
-<style>
-@rem: 37.5rem;
-.home{
-    width: 100%;
-    height: 100%;
-    background-color: #8dddbd;
-}
-</style>
