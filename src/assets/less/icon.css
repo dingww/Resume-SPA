@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 207513 */
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg') format('svg');
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-play1:before { content: "\e631"; }
+
+.icon-loading:before { content: "\e626"; }
+
+.icon-jiazai:before { content: "\e618"; }
+
+.icon-logo_:before { content: "\e725"; }
+
+.icon-hook:before { content: "\e745"; }
+
+.icon-zoom2:before { content: "\e748"; }
+
+.icon-rotate2:before { content: "\e749"; }
+
+.icon-move5:before { content: "\e74b"; }
+
+.icon-application:before { content: "\e767"; }
+
+.icon-back2:before { content: "\e768"; }
+
+.icon-buy_c:before { content: "\e76d"; }
+
+.icon-delete2:before { content: "\e76e"; }
+
+.icon-buy:before { content: "\e76f"; }
+
+.icon-display1:before { content: "\e772"; }
+
+.icon-hide1:before { content: "\e775"; }
+
+.icon-pause:before { content: "\e77d"; }
+
+.icon-personal:before { content: "\e77e"; }
+
+.icon-search3:before { content: "\e783"; }
+
+.icon-single_cycle:before { content: "\e785"; }
+
+.icon-pyq:before { content: "\e78c"; }
+
+.icon-lianjie:before { content: "\e78d"; }
+
+.icon-kongjian:before { content: "\e78e"; }
+
+.icon-weixin:before { content: "\e78f"; }
+
+.icon-weibo2:before { content: "\e790"; }
+
+.icon-qq2:before { content: "\e791"; }
+
+.icon-logo_2:before { content: "\e792"; }
+
+.icon-cancel:before { content: "\e795"; }
+
+.icon-scan:before { content: "\e796"; }
+
+.icon-reset:before { content: "\e774"; }
+
+.icon-help_:before { content: "\e776"; }
+
+.icon-ar:before { content: "\e777"; }
+
+.icon-animation:before { content: "\e77a"; }
+
+.icon-full_screen:before { content: "\e77b"; }
+
+.icon-exit_full_screen:before { content: "\e77c"; }
+
+.icon-color:before { content: "\e77f"; }
+
+.icon-help:before { content: "\e780"; }
+
+.icon-size:before { content: "\e781"; }
+
+.icon-hot_spot:before { content: "\e782"; }
+
+.icon-share:before { content: "\e770"; }
+
+.icon-vr:before { content: "\e771"; }
+
+.icon-no_signal:before { content: "\e79e"; }
+
+.icon-changjing:before { content: "\e7c6"; }
+
+.icon-shuaxin1:before { content: "\e809"; }
+
+.icon-shezhi1:before { content: "\e80a"; }
+
+.icon-AR:before { content: "\e80e"; }
+
+.icon-tuichu1:before { content: "\e810"; }
+
+.icon-shengji:before { content: "\e811"; }

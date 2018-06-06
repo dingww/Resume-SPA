@@ -6,8 +6,9 @@ import VueResource from 'vue-resource';
 require('./assets/js/rem.js');
 
 Vue.config.debug = true;
-Vue.use(VueResource);
+Vue.use(VueResource, router);
 Vue.http.options.emulateHTTP = true;
+
 new Vue({
     router,
     el: '#root',
