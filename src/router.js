@@ -6,6 +6,7 @@ import Education from "./views/education.vue";
 import Projects from "./views/projects.vue";
 import About from "./views/about.vue";
 import Contact from "./views/contact.vue";
+import Static from "./views/static.vue";
 import config from './core/config.js';
 
 Vue.use(Router);
@@ -14,14 +15,14 @@ if (config.isStatic) {
     routes = [
         {
             path: "/",
-            component: resolve => require(["./views/static.vue"], resolve)
+            component: Static,
         }
     ];
 } else {
     routes = [
         {
-            path: "/",
-            component: resolve => require(["./views/home.vue"], resolve)
+            path: "/home",
+            component: Home,
         },
         {
             path: "/experience",
