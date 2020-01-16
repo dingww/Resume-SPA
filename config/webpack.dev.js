@@ -38,7 +38,7 @@ module.exports = {
     },
     devServer: { // webpack-dev-server 配置
         historyApiFallback: true,
-        noInfo: true,
+        open: true,
         inline: true // 实时刷新
     },
     performance: {

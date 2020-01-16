@@ -11,15 +11,19 @@ import config from './core/config.js';
 
 Vue.use(Router);
 let routes = [];
-if (config.isStatic) {
+// if (config.isStatic) {
+//     routes = [
+//         {
+//             path: "/",
+//             component: Static,
+//         }
+//     ];
+// } else {
     routes = [
         {
             path: "/",
             component: Static,
-        }
-    ];
-} else {
-    routes = [
+        },
         {
             path: "/home",
             component: Home,
@@ -45,7 +49,7 @@ if (config.isStatic) {
             component: Contact
         }
     ];
-}
+// }
 
 export default new Router({
     routes: routes

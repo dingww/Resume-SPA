@@ -2,60 +2,80 @@
 @rem: 37.5rem;
 .nav {
     width: 100%;
+    // overflow: auto;
     padding: 0 40/@rem;
     box-sizing: border-box;
     position: relative;
     padding-top: 40/@rem;
     .about-me{
-        width: 60/@rem;
-        height: 60/@rem;
-        font-size: 14/@rem;
+        width: 75/@rem;
+        height: 75/@rem;
+        font-size: 16/@rem;
         text-align: center;
-        line-height: 60/@rem;
+        line-height: 75/@rem;
         border-radius: 100%;
         background-color: #2db4af;
-        border: 4/@rem solid #d0f4ef;
+        border: 1/@rem dashed #aef7ed;
+        // box-shadow: 0 0 10px rgba(210, 248, 238, 0.7);
         display: block;
         color: white;
         position: absolute;
-        top: 100/@rem;
-        left: 154/@rem;
+        cursor: pointer;
+        top: 10/@rem;
+        left: calc(~'50% - 1rem');
+        z-index: 1;
     }
     .my-info {
+        opacity: 0;
+        transition: all 0.3s;
         a {
-            width: 70/@rem;
-            height: 70/@rem;
-            font-size: 14/@rem;
+            width: 75/@rem;
+            height: 75/@rem;
+            font-size: 12/@rem;
             text-align: center;
-            line-height: 70/@rem;
+            line-height: 75/@rem;
             border-radius: 100%;
             background-color: #40a496;
+            box-shadow: 0 0 10px rgba(210, 248, 238, 0.7);
             display: block;
             color: white;
             position: absolute;
             top: 0;
+            left: calc(~'50% - 1rem');
+            transition: all 0.3s;
             &:hover {
                 background-color: #30948d;
             }
-            &.about {
+        }
+        &.show{
+            opacity: 1;
+            transition: all 0.3s;
+            .about {
+                top: 20/@rem;
+                // left: 40/@rem;
+                left: calc(~'50% - 4.5rem');
+                transition: all 0.3s;
+            }
+            .experience {
                 top: 100/@rem;
-                left: 40/@rem;
+                left: calc(~'50% - 3.3rem');
+                transition: all 0.3s;
             }
-            &.experience {
-                top: 30/@rem;
-                left: 80/@rem;
+            .contact {
+                top: 120/@rem;
+                left: calc(~'50% - 1rem');
+                transition: all 0.3s;
             }
-            &.contact {
-                top: -10/@rem;
-                left: 154/@rem;
-            }
-            &.projects {
-                top: 30/@rem;
-                right: 80/@rem;
-            }
-            &.education {
+            .projects {
                 top: 100/@rem;
-                right: 40/@rem;
+                left: calc(~'50% + 1.3rem');
+                transition: all 0.3s;
+            }
+            .education {
+                top: 20/@rem;
+                // right: 40/@rem;
+                left: calc(~'50% + 2.5rem');
+                transition: all 0.3s;
             }
         }
     }
@@ -64,7 +84,7 @@
 <template>
     <div class="nav">
         <div class="about-me" @click="onShowAboutMe">关于我</div>
-        <div class="my-info" v-show="isShowInfo">
+        <div class="my-info" :class="isShowInfo ? 'show' : 'hide'">
             <router-link class="about" to="/about">个人信息</router-link>
             <router-link class="education" to="/education">教育背景</router-link>
             <router-link class="experience" to="/experience">工作经验</router-link>
@@ -90,7 +110,6 @@ export default {
     beforeUpdate: function() {},
     methods: {
         onShowAboutMe: function() {
-            console.log("das");
             this.isShowInfo = !this.isShowInfo;
         }
     }
