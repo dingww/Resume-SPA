@@ -4,8 +4,8 @@
 </style>
 <template>
     <div class="avatar"> 
-        <div class="img-wrap">
-            <img src="./../assets/images/avatar.jpg" alt="avatar"/>
+        <div class="img-wrap img_02">
+            <img src="./../assets/images/avatar_02.jpg" alt="avatar"/>
         </div>
         <div class="name-wrap">
             <h3 class="name">丁文婉</h3>

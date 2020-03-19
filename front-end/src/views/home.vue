@@ -6,7 +6,7 @@
     background-color: #5dd0bd;
     .avatar {
         padding: 60/@rem 50/@rem 30/@rem;
-        .img-wrap {
+        .img-wrap{
             width: 100/@rem;
             height: 100/@rem;
             border: 6/@rem solid #b7ebe0;

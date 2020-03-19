@@ -57,6 +57,9 @@ body{
                     // box-shadow: 0 0 8/@rem #07988b;
                     border-radius: 50%;
                     overflow: hidden;
+                    // &.img_02{
+                    //     border: none;
+                    // }
                     img{
                         width: 100%;
                         height: 100%;
@@ -201,18 +204,11 @@ body{
                 }
             }
             .self-evaluate{
-                ol{
-                    list-style: default;
+                padding-left: 26px;
+                li{
+                    list-style-type: circle;
                     line-height: 24/@rem;
                     text-align: justify;
-                    &::before{
-                        content:'·';
-                        font-size: 14/@rem;
-                        font-weight: 900;
-                        margin-right: 10/@rem;
-                        color: #07988b;
-                    }
-                    
                 }
             }
                 
@@ -504,11 +500,11 @@ body{
             </h3>
             <div class="content">
                 <ul class="self-evaluate">
-                    <ol>熟悉html5、css3、javascript，熟悉playcanvas、了解three.js；</ol>
-                    <ol>熟悉react，有react、vue、jquery、小程序等开发经验；</ol>
-                    <ol>熟悉svn、git等代码管理工具，熟悉webpack，能独立搭建前端项目框架；</ol>
-                    <ol>英语六级，良好的英文阅读能力；</ol>
-                    <ol>在项目研发方面有一定的管理经验。</ol>
+                    <li>熟悉html5、css3、javascript，熟悉playcanvas、了解three.js；</li>
+                    <li>熟悉react，有react、vue、jquery、小程序等开发经验；</li>
+                    <li>熟悉svn、git等代码管理工具，熟悉webpack，能独立搭建前端项目框架；</li>
+                    <li>英语六级，良好的英文阅读能力；</li>
+                    <li>在项目研发方面有一定的管理经验。</li>
                 </ul>
             </div>
         </div>
