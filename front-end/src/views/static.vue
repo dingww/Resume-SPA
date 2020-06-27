@@ -15,6 +15,7 @@ body{
     background-color: @reColor_FFFFFF;
     // padding: 0 10/@rem;
     box-sizing: border-box;
+    padding: 20px 0;
     .info-item{
         margin-top: 15/@rem;
         &:nth-child(1){
@@ -250,15 +251,15 @@ body{
                     <span class="degree">硕士</span>
                     <span>无线电物理</span>
                 </h4>
-                <div class="edu-content">主要研究电波传播算法，发表过一篇国际期刊论文和两篇国际会议论文，两次获得一等研究生教育奖学金。</div>
+                <!-- <div class="edu-content">主要研究电波传播算法，发表过一篇国际期刊论文和两篇国际会议论文，两次获得一等研究生教育奖学金。</div> -->
                 <h4 class="edu-title">
                     <span class="edu-time">2010.09 ~ 2014.06</span><span> 湖北师范大学</span>
                     <span class="degree">本科</span>
                     <span>电子信息工程</span>
                 </h4>
-                <div class="edu-content">
+                <!-- <div class="edu-content">
                     在校期间学习成绩优异，多次获得奖学金。课余时间积极参与学校社团活动，具备良好的交流协调能力。
-                </div>
+                </div> -->
             </div>
         </div>
          <div class="info-item">
@@ -276,9 +277,9 @@ body{
                 <div class="edu-content">
                     <label>工作描述：</label>
                     <ul>
-                        <li>主要参与项目的开发以及产品的迭代开发，主要内容包括：理解需求、参与需求评审、制定解决方案、需求开发、bug修复以及性能优化等工作；</li>
-                        <li>使用的技术栈为： webpack + es6 + react + mobx/dva；</li>
-                        <li>做过一个项目的技术负责人，包括：制定项目开发计划、进度跟踪以及进度汇报。</li>
+                        <li>主要参与项目的开发以及产品的迭代开发，对可视化有一定的了解</li>
+                        <li>主要技术栈为：webpack + es6 + react + mobx/dva + echarts。</li>
+                        <!-- <li>做过一个项目的技术负责人，包括：制定项目开发计划、进度跟踪以及进度汇报。</li> -->
                     </ul>
                 </div>
                 <h4 class="edu-title">
@@ -288,8 +289,8 @@ body{
                 <div class="edu-content">
                     <label>工作描述：</label>
                     <ul>
-                        <li>主要负责公司产品的迭代开发，包括：前端页面开发、通用组件开发以及产品的bug修复、性能优化等维护工作；</li>
-                        <li>主要技术栈为：webpack + es6 + react/vue + mobx。</li>
+                        <li>主要负责公司产品的迭代开发，对可视化有一定的了解</li>
+                        <li>主要技术栈为：webpack + es6 + react/vue + mobx + canvas。</li>
                     </ul>
                 </div>
             </div>
@@ -302,6 +303,28 @@ body{
                 <span>项目经历</span>
             </h3>
             <div class="content">
+                <div class="content-item">
+                    <h4 class="work-title">
+                        <span class="work-time">2019.04 ~ 至今（中途有间断）</span><span class="company-name">三盟科技</span><span class="project-name">智能数据分析平台</span>
+                    </h4>
+                    <div class="work-content"> 
+                        <div class="part">
+                            <label>项目描述：</label>
+                            <ul>
+                                <li>该产品是一款数据可视化分析工具。用户可以通过本地上传或连接数据库的方式，将数据创建成数据集，然后在仪表板模块中将数据集的数据通过不同的图表展示出来，运用筛选、选钻取、联动等操作来实现数据分析；</li>
+                                <li>该产品主要包括：数据源、数据集、仪表板以及URL映射4个模块；</li>
+                                <li>该产品前端技术栈为：webpack + es6 + react + mobx + echarts。</li>
+                            </ul>
+                        </div>
+                        <div class="part">
+                            <label>责任描述：</label>
+                            <ul>
+                                <li>参与平台50%的模块开发、bug修复及功能优化；</li>
+                                <li>在前端开发人员严重不足、多次被压缩工期（总压缩30%）的条件下，保证了每个迭代周期的版本发布。</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="content-item">
                     <h4 class="work-title">
                         <span class="work-time">2019.11 ~ 2020.01</span><span class="company-name">三盟科技</span><span class="project-name">贵州轻工职业技术学院诊改项目</span>
@@ -322,28 +345,6 @@ body{
                                 <li>完成个性化需求的开发及bug修复；</li>
                                 <li>兼职本项目技术负责人，包括制定研发计划、任务分配、进度跟踪以及以日报的形式每天进行进度汇报；</li>
                                 <li>与学校沟通协调资源，推进项目进度。</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="content-item">
-                    <h4 class="work-title">
-                        <span class="work-time">2019.03 ~ 2019.10</span><span class="company-name">三盟科技</span><span class="project-name">智能数据分析平台</span>
-                    </h4>
-                    <div class="work-content"> 
-                        <div class="part">
-                            <label>项目描述：</label>
-                            <ul>
-                                <li>该产品是一款数据可视化分析工具。用户可以通过本地上传或连接数据库的方式，将数据创建成数据集，然后在仪表板模块中将数据集的数据通过不同的图表展示出来，运用筛选、选钻取、联动等操作来实现数据分析；</li>
-                                <li>该产品主要包括：数据源、数据集、仪表板以及URL映射4个模块；</li>
-                                <li>该产品前端技术栈为：webpack + es6 + react + mobx + echarts。</li>
-                            </ul>
-                        </div>
-                        <div class="part">
-                            <label>责任描述：</label>
-                            <ul>
-                                <li>参与平台各个模块的开发、bug修复及功能优化；</li>
-                                <li>在前端开发人员严重不足、多次被压缩工期（总压缩30%）的条件下，保证了每个迭代周期的版本发布。</li>
                             </ul>
                         </div>
                     </div>
@@ -378,16 +379,16 @@ body{
                         <div class="part">
                             <label>项目描述：</label>
                             <ul>
-                                <li>该项目是一个帮助美术馆、画廊、个人建立、布置及推广自己的3D平台；</li>
+                                <li>该项目是一个帮助美术馆、画廊、个人建立、布置及推广自己的3D平台，有兼容PC端和移动端，并由本人开发了小程序版本；</li>
                                 <li>前端主要技术栈为：webpack + es6 + react + playcanvas。</li>
                             </ul>
                         </div>
                         <div class="part">
                             <label>责任描述：</label>
                             <ul>
-                                <li>本人主要负责网站整体改版的前端开发及对应的小程序开发工作；</li>
+                                <li>本人主要负责网站整体改版的前端开发及对应的小程序开发；</li>
                                 <li>2周内独立完成了改版的70%开发任务；</li>
-                                <li>3周独立完成了小程序的开发工作。</li>
+                                <li>3周独立完成了小程序的开发。</li>
                             </ul>
                         </div>
                     </div>
@@ -432,7 +433,7 @@ body{
                             <ul>
                                 <li>本人经历了产品从无到有的过程，在两周一个迭代周期的紧张开发过程中，每次都能在迭代周期内完成开发任务；</li>
                                 <li>网站的60%页面及功能模块由本人完成（除3d部分外），解决过上百个bug；</li>
-                                <li>本人在该项目过程中学习并了解了playcanvas、three.js等与3d相关的技术。</li>
+                                <li>本人在该项目过程中学习并了解了playcanvas、three.js库的使用及3d相关的技术。</li>
                             </ul>
                         </div>
                     </div>
@@ -500,11 +501,12 @@ body{
             </h3>
             <div class="content">
                 <ul class="self-evaluate">
-                    <li>熟悉html5、css3、javascript，熟悉playcanvas、了解three.js；</li>
-                    <li>熟悉react，有react、vue、jquery、小程序等开发经验；</li>
+                    <li>熟悉html5、css3、javascript</li>
+                    <li>熟悉react，有react、vue、小程序等开发经验；</li>
                     <li>熟悉svn、git等代码管理工具，熟悉webpack，能独立搭建前端项目框架；</li>
-                    <li>英语六级，良好的英文阅读能力；</li>
-                    <li>在项目研发方面有一定的管理经验。</li>
+                    <li>对可视化有一定的了解，正在持续学习相关的技术；</li>
+                    <li>英语六级，良好的英文阅读能力。</li>
+                    <!-- <li>在项目研发方面有一定的管理经验。</li> -->
                 </ul>
             </div>
         </div>
