@@ -5,11 +5,11 @@
 <template>
     <div class="avatar"> 
         <div class="img-wrap img_02">
-            <img src="./../assets/images/avatar_02.jpg" alt="avatar"/>
+            <img src="./../assets/images/avatar5.jpg" alt="avatar"/>
         </div>
         <div class="name-wrap">
             <h3 class="name">丁文婉</h3>
-            <p class="profession">web前端开发工程师</p>
+            <p class="profession">web前端开发</p>
         </div>
     </div>
 </template>
